@@ -1,0 +1,670 @@
+.my-progress {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+.my-progress,
+.skillName {
+	text-align: center;
+	border-bottom: 1px solid gray;
+
+	width: 200px;
+	margin: 1rem auto;
+}
+.skills {
+	margin: 0 auto;
+}
+.progresBox {
+	width: 100%;
+	margin: 0 auto;
+}
+.progress {
+	box-sizing: border-box;
+	background: rgb(204, 200, 200);
+	justify-content: flex-start;
+	border-radius: 10px;
+	align-items: center;
+	position: relative;
+	padding: 0 5px;
+	display: flex;
+	height: 30px;
+	width: 700px;
+	margin: 2rem auto;
+	box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.73);
+}
+.progress span {
+	margin-left: 10px;
+	font-size: medium;
+	font-weight: bolder;
+	color: rgb(70, 67, 67);
+}
+
+.progress-html {
+	animation: html 3s normal forwards;
+	border-radius: 10px;
+	background: var(--clr-accent);
+	height: 30px;
+	width: 0;
+	margin-left: -5px;
+}
+.progress-css {
+	animation: css 3s normal forwards;
+	border-radius: 10px;
+	background: var(--clr-accent);
+	height: 30px;
+	width: 0;
+	margin-left: -5px;
+}
+.progress-js {
+	animation: js 3s normal forwards;
+	border-radius: 10px;
+	background: var(--clr-accent);
+	height: 30px;
+	width: 0;
+	align-items: center;
+	margin-left: -5px;
+}
+.progress-node {
+	animation: node 3s normal forwards;
+	border-radius: 10px;
+	background: var(--clr-accent);
+	height: 30px;
+	width: 0;
+	align-items: center;
+	margin-left: -5px;
+}
+.progress-react {
+	animation: react 3s normal forwards;
+	border-radius: 10px;
+	background: var(--clr-accent);
+	height: 30px;
+	width: 0;
+	align-items: center;
+	margin-left: -5px;
+}
+.progress-value span {
+	padding-left: 1rem;
+	font-size: medium;
+	color: white;
+}
+
+@keyframes html {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 90%;
+	}
+}
+
+@keyframes css {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 80%;
+	}
+}
+@keyframes js {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 65%;
+	}
+}
+
+@keyframes node {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 65%;
+	}
+}
+@keyframes react {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.my-progress {
+		margin: 0 auto;
+		padding: 1rem;
+		border: 1px solid red;
+	}
+	.my-progress,
+	.skillName {
+		text-align: center;
+		border-bottom: 1px solid gray;
+
+		width: 200px;
+		margin: 1rem auto;
+	}
+	.skills {
+		margin: 0 auto;
+	}
+	.progresBox {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.progress {
+		max-width: 400px;
+		background: rgb(204, 200, 200);
+		justify-content: flex-start;
+		border-radius: 10px;
+		align-items: center;
+		position: relative;
+		padding: 0 5px;
+		display: flex;
+		height: 30px;
+
+		margin: 2rem auto;
+		box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.73);
+	}
+	.progress span {
+		margin-left: 10px;
+		font-size: medium;
+		font-weight: bolder;
+		color: rgb(70, 67, 67);
+	}
+
+	.progress-html {
+		animation: html 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		margin-left: -5px;
+	}
+	.progress-css {
+		animation: css 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		margin-left: -5px;
+	}
+	.progress-js {
+		animation: js 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		align-items: center;
+		margin-left: -5px;
+	}
+	.progress-node {
+		animation: node 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		align-items: center;
+		margin-left: -5px;
+	}
+	.progress-react {
+		animation: react 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		align-items: center;
+		margin-left: -5px;
+	}
+	.progress-value span {
+		padding-left: 1rem;
+		font-size: medium;
+		color: white;
+	}
+
+	@keyframes html {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 90%;
+		}
+	}
+
+	@keyframes css {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 80%;
+		}
+	}
+	@keyframes js {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 65%;
+		}
+	}
+
+	@keyframes node {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 65%;
+		}
+	}
+	@keyframes react {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 45%;
+		}
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.my-progress {
+		margin: 0 auto;
+		padding: 1rem;
+		border: 1px solid red;
+	}
+	.my-progress,
+	.skillName {
+		text-align: center;
+		border-bottom: 1px solid gray;
+
+		width: 200px;
+		margin: 1rem auto;
+	}
+	.skills {
+		margin: 0 auto;
+	}
+	.progresBox {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.progress {
+		max-width: 450px;
+		background: rgb(204, 200, 200);
+		justify-content: flex-start;
+		border-radius: 10px;
+		align-items: center;
+		position: relative;
+		padding: 0 5px;
+		display: flex;
+		height: 30px;
+
+		margin: 2rem auto;
+		box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.73);
+	}
+	.progress span {
+		margin-left: 10px;
+		font-size: medium;
+		font-weight: bolder;
+		color: rgb(70, 67, 67);
+	}
+
+	.progress-html {
+		animation: html 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		margin-left: -5px;
+	}
+	.progress-css {
+		animation: css 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		margin-left: -5px;
+	}
+	.progress-js {
+		animation: js 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		align-items: center;
+		margin-left: -5px;
+	}
+	.progress-node {
+		animation: node 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		align-items: center;
+		margin-left: -5px;
+	}
+	.progress-react {
+		animation: react 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		align-items: center;
+		margin-left: -5px;
+	}
+	.progress-value span {
+		padding-left: 1rem;
+		font-size: medium;
+		color: white;
+	}
+
+	@keyframes html {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 90%;
+		}
+	}
+
+	@keyframes css {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 80%;
+		}
+	}
+	@keyframes js {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 65%;
+		}
+	}
+
+	@keyframes node {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 65%;
+		}
+	}
+	@keyframes react {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 45%;
+		}
+	}
+}
+@media only screen and (max-width: 500px) {
+	.my-progress {
+		margin: 0 auto;
+		padding: 1rem;
+		border: 1px solid red;
+	}
+	.my-progress,
+	.skillName {
+		text-align: center;
+		border-bottom: 1px solid gray;
+
+		width: 200px;
+		margin: 1rem auto;
+	}
+	.skills {
+		margin: 0 auto;
+	}
+	.progresBox {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.progress {
+		max-width: 350px;
+		background: rgb(204, 200, 200);
+		justify-content: flex-start;
+		border-radius: 10px;
+		align-items: center;
+		position: relative;
+		padding: 0 5px;
+		display: flex;
+		height: 30px;
+
+		margin: 2rem auto;
+		box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.73);
+	}
+	.progress span {
+		margin-left: 10px;
+		font-size: medium;
+		font-weight: bolder;
+		color: rgb(70, 67, 67);
+	}
+
+	.progress-html {
+		animation: html 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		margin-left: -5px;
+	}
+	.progress-css {
+		animation: css 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		margin-left: -5px;
+	}
+	.progress-js {
+		animation: js 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		align-items: center;
+		margin-left: -5px;
+	}
+	.progress-node {
+		animation: node 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		align-items: center;
+		margin-left: -5px;
+	}
+	.progress-react {
+		animation: react 3s normal forwards;
+		border-radius: 10px;
+		background: var(--clr-accent);
+		height: 30px;
+		width: 0;
+		align-items: center;
+		margin-left: -5px;
+	}
+	.progress-value span {
+		padding-left: 1rem;
+		font-size: medium;
+		color: white;
+	}
+
+	@keyframes html {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 90%;
+		}
+	}
+
+	@keyframes css {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 80%;
+		}
+	}
+	@keyframes js {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 65%;
+		}
+	}
+
+	@keyframes node {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 65%;
+		}
+	}
+	@keyframes react {
+		0% {
+			width: 0;
+		}
+		100% {
+			width: 45%;
+		}
+	}
+
+	@media only screen and (max-width: 400px) {
+		.my-progress {
+			margin: 0 auto;
+			padding: 1rem;
+			border: 1px solid red;
+		}
+		.my-progress,
+		.skillName {
+			text-align: center;
+			border-bottom: 1px solid gray;
+
+			width: 200px;
+			margin: 1rem auto;
+		}
+		.skills {
+			margin: 0 auto;
+		}
+		.progresBox {
+			width: 100%;
+			margin: 0 auto;
+		}
+		.progress {
+			max-width: 300px;
+			background: rgb(204, 200, 200);
+			justify-content: flex-start;
+			border-radius: 10px;
+			align-items: center;
+			position: relative;
+			padding: 0 5px;
+			display: flex;
+			height: 30px;
+
+			margin: 2rem auto;
+			box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.73);
+		}
+		.progress span {
+			margin-left: 10px;
+			font-size: medium;
+			font-weight: bolder;
+			color: rgb(70, 67, 67);
+		}
+
+		.progress-html {
+			animation: html 3s normal forwards;
+			border-radius: 10px;
+			background: var(--clr-accent);
+			height: 30px;
+			width: 0;
+			margin-left: -5px;
+		}
+		.progress-css {
+			animation: css 3s normal forwards;
+			border-radius: 10px;
+			background: var(--clr-accent);
+			height: 30px;
+			width: 0;
+			margin-left: -5px;
+		}
+		.progress-js {
+			animation: js 3s normal forwards;
+			border-radius: 10px;
+			background: var(--clr-accent);
+			height: 30px;
+			width: 0;
+			align-items: center;
+			margin-left: -5px;
+		}
+		.progress-node {
+			animation: node 3s normal forwards;
+			border-radius: 10px;
+			background: var(--clr-accent);
+			height: 30px;
+			width: 0;
+			align-items: center;
+			margin-left: -5px;
+		}
+		.progress-react {
+			animation: react 3s normal forwards;
+			border-radius: 10px;
+			background: var(--clr-accent);
+			height: 30px;
+			width: 0;
+			align-items: center;
+			margin-left: -5px;
+		}
+		.progress-value span {
+			padding-left: 1rem;
+			font-size: medium;
+			color: white;
+		}
+
+		@keyframes html {
+			0% {
+				width: 0;
+			}
+			100% {
+				width: 90%;
+			}
+		}
+
+		@keyframes css {
+			0% {
+				width: 0;
+			}
+			100% {
+				width: 80%;
+			}
+		}
+		@keyframes js {
+			0% {
+				width: 0;
+			}
+			100% {
+				width: 65%;
+			}
+		}
+
+		@keyframes node {
+			0% {
+				width: 0;
+			}
+			100% {
+				width: 65%;
+			}
+		}
+		@keyframes react {
+			0% {
+				width: 0;
+			}
+			100% {
+				width: 45%;
+			}
+		}
+	}
+}
